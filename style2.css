@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:black;
+    font-family: 'Comic Neue', cursive;
+}
+
+h1{
+    font-size: 60px;
+    text-align: left;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+header{
+    background-image: url(./img/design1_image2.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-repeat: cover;
+    background-position: 0% 10%;
+}
+
+#logo{
+    background-color: white;
+    display: flex;
+    float: left;
+    margin-top: 45px;
+    margin-left: 65px;
+    width: 15%;
+    border: 5px solid black;
+}
+
+
+h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
+nav{
+    display:flex;
+    float: right;
+    margin-top:-370px;
+    width: 350px;
+}
+
+
+ol li{
+    display:inline;
+    margin-bottom: 55px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px black ;
+    background-color: darkblue;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+#active{
+    margin-bottom: 55px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px black ;
+    background-color: green;
+}
+
+
+.events{
+    width: 500px;
+    margin-left: 250px;
+    padding: 35px 85px;
+    display: block;
+    text-align:justify;
+}
+
+#about{
+    height: auto;
+    width: 900px;
+    padding: 35px 65px;
+    display: inline-block;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+.contact{
+    height: auto;
+    width: 500px;
+    padding: 35px 65px;
+    display: inline-block;
+    text-align:left;
+}
