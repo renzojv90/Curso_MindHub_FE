@@ -13,7 +13,7 @@ h1{
     font-size: 60px;
     text-align: left;
     background-color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 header{
     background-image: url(./img/design1_image2.jpg);
