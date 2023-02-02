@@ -50,14 +50,16 @@ h2{
     border-bottom: 1px solid white;
 }
 
-nav{
+/*  Nav  */
+
+.nav{
     display:flex;
     margin-right: 35px;
-    margin-top: -140px;
+    margin-top: -100px;
     float: right;
 }
 
-ol li{
+.nav ul li{
     display:inline;
     padding: 10px;
     margin: 10px;
@@ -66,12 +68,14 @@ ol li{
     box-shadow: 2px 2px black ;
     background-color: rgb(221, 203, 41);
     border-radius:  5px;
+    
 }
 
-ol li a{
-    font-size: 25px;
+.nav ul li a{
+    font-size: 1em;
     padding: 10px;
     color: rgb(16, 19, 19);
+    text-decoration: none;
 }
 
 #active{
@@ -87,6 +91,13 @@ ol li a{
     color: rgb(221, 203, 41);
 }
 
+.nav ul li :hover{
+    font-size: 1.2em;
+    transition: 0.7s;
+}
+
+/*   HOME  */
+
 h3{
     text-align: justify;
     margin-left: 15px;
@@ -95,9 +106,10 @@ h3{
 p{
     padding: 15px;
     font-size: 20px;
-    text-indent: 20px;
+    text-indent: 2.5em;
     text-align:justify;
 }
+
 
 .events{
     width: 650px;
@@ -112,6 +124,8 @@ p{
     text-align:justify;
 }
 
+/*   ABOUT  */
+
 #about{
     width: 650px;
     border: 3px solid rgb(221, 203, 41);
@@ -122,6 +136,8 @@ p{
     margin-top: 35px;
     padding: 35px 65px;
 }
+
+/*        CONTACT      */
 
 .contact{
     width: 650px;
@@ -135,6 +151,170 @@ p{
     text-align:justify;
 }
 
-a{
+p a{
     text-decoration: none;
+    color: bisque;
+}
+
+/*      RULES          */
+
+.rules{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+.rules h4{
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 0.5em;
+}
+
+.rules h3{
+    text-align: left;
+    font-size: 1.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.rules p{
+    text-align: center;
+    text-indent: 0;
+}
+
+.regulations h3{
+    padding-bottom: 0.6em;
+}
+
+.regulations ol li{
+    font-size: 1.2em;
+    text-indent: none;
+    margin-left: 1.5em;
+    text-align: justify;
+    padding: 0.5em;
+}
+
+.sportsmaship p{
+    text-align: justify;
+    text-indent: 2.5em;
+    padding-right: 0;
+}
+
+#fields li{
+    list-style-type:lower-alpha;
+}
+
+.allPlay p{
+    text-align: justify;
+    text-indent: 2.5em;
+}
+
+.allPlay ul{
+    font-size: 1.2em;
+    margin-left: 6em;
+}
+
+/*       GAME INFORMATION             */
+
+.gameInfo{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5rem;
+}
+
+
+.gameInfo h3{
+    text-align: right;
+    font-size: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.gameInfo h4{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 0.5em;
+}
+
+.gameInfo p{
+    text-align: left;
+    font-size: 1.5;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 0 0 0.5em 0;
+    text-indent: 0;
+    
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20px;
+    border: 2px solid rgb(221, 203, 41);
+}
+
+thead{
+    font-size: 1.8em;
+    padding: 2em 2em;
+    text-shadow: 3px 3px 1px rgb(221, 203, 41,0.2);
+}
+thead th{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+tbody{
+    font-size: 1.3em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(221, 203, 41);
+    color: rgb(16, 19, 19);
+}
+
+table ol li{
+    list-style-type:none;
+    padding: 0.5em 0.5em;
+}
+
+.flex-addInfo{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 0.5em;
+}
+
+#addInfo p{
+    padding-left: 0;
+    padding-right: 0;
+    text-indent: 0;
+}
+
+#box1{
+    width: 49%;
+    display: inline-block;
+}
+
+#box2{
+
+    width: 49%;
+    float:right;
+}
+
+#box2 p{
+    text-align: right;
+}
+
+
+
+/*        FOOTER         */
+
+footer p{
+    text-align: right;
 }
