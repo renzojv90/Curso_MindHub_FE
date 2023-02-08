@@ -50,14 +50,14 @@
                     <input type="text" name="StreetAddress" id="streetAd">
                     <br>
                     <label for="city">City: </label>
-                    <input type="text" name="City" id="city">                    
+                    <input type="text" name="City" id="city" required>                    
                     <label for="zipcode">Zip Code: </label>
-                    <input type="number" name="ZipCode" id="zipcode">
+                    <input type="number" name="ZipCode" id="zipcode" required>
                     <br>
                     <label for="birthDate">Birth Date(mm/dd/yyyy): </label>
-                    <input type="date" name="Birthday" id="birthDate">
+                    <input type="date" name="Birthday" id="birthDate" required>
                     <label for="gender">Gender</label>
-                    <select name="Gender" id="gender">
+                    <select name="Gender" id="gender" required>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                     </select>
@@ -149,9 +149,9 @@
                 
                 <fieldset id="signature">
                     <label for="Pname">Parent/GuardianSignature: </label>
-                    <input type="text" id="Pname" name="TutorName"><br>
+                    <input type="text" id="Pname" name="TutorName" required><br>
                     <label for="SigDate">Date: </label>
-                    <input type="datetime-local" id="SigDate" name="SignatureDate">
+                    <input type="datetime-local" id="SigDate" name="SignatureDate" required>
                 </fieldset>
 
             
